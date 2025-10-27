@@ -1,4 +1,4 @@
-﻿namespace DogHouseService.Models
+﻿namespace DogHouse.Models
 {
     public class Dog
     {

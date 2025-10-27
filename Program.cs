@@ -1,5 +1,5 @@
 
-namespace DogHouseService
+namespace DogHouse
 {
     public class Program
     {

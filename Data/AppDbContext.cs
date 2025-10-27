@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using DogHouseService.Models;
+﻿using DogHouse.Models;
+using Microsoft.EntityFrameworkCore;
 
-namespace DogHouseService.Data;
+namespace DogHouse.Data;
 
 public class AppDbContext : DbContext
 {
