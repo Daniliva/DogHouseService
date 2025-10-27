@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36616.10 d17.14
+VisualStudioVersion = 17.14.36616.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogHouse", "DogHouse.csproj", "{522F3644-7295-4783-90AC-446333CB81D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogHouse", "DogHouse\DogHouse.csproj", "{39676F08-DE2E-27B0-1CD1-C218FE7DDF50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{522F3644-7295-4783-90AC-446333CB81D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{522F3644-7295-4783-90AC-446333CB81D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{522F3644-7295-4783-90AC-446333CB81D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{522F3644-7295-4783-90AC-446333CB81D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39676F08-DE2E-27B0-1CD1-C218FE7DDF50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39676F08-DE2E-27B0-1CD1-C218FE7DDF50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39676F08-DE2E-27B0-1CD1-C218FE7DDF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39676F08-DE2E-27B0-1CD1-C218FE7DDF50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
