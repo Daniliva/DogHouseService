@@ -1,22 +1,23 @@
 ﻿using DogHouse.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace DogHouse.Data;
-
-public class AppDbContext : DbContext
+namespace DogHouse.Data
 {
-    public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
-
-    public DbSet<Dog> Dogs { get; set; } = default!;
-
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    public class AppDbContext : DbContext
     {
-        modelBuilder.Entity<Dog>(eb =>
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+
+        public DbSet<Dog> Dogs { get; set; } = default!;
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            eb.HasKey(d => d.Id);
-            eb.HasIndex(d => d.Name).IsUnique();
-            eb.Property(d => d.Name).IsRequired();
-            eb.Property(d => d.Color).IsRequired();
-        });
+            modelBuilder.Entity<Dog>(eb =>
+            {
+                eb.HasKey(d => d.Id);
+                eb.HasIndex(d => d.Name).IsUnique();
+                eb.Property(d => d.Name).IsRequired();
+                eb.Property(d => d.Color).IsRequired();
+            });
+        }
     }
 }

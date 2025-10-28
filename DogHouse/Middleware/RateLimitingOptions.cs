@@ -1,6 +1,7 @@
-﻿namespace DogHouse.Middleware;
-
-public class RateLimitingOptions
+﻿namespace DogHouse.Middleware
 {
-    public int RequestsPerSecond { get; set; } = 10;
+    public class RateLimitingOptions
+    {
+        public int RequestsPerSecond { get; set; } = 10;
+    }
 }

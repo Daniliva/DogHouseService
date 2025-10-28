@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36616.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogHouse", "DogHouse\DogHouse.csproj", "{39676F08-DE2E-27B0-1CD1-C218FE7DDF50}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogHouse.UnitTests", "DogHouse.UnitTests\DogHouse.UnitTests.csproj", "{98BBEF77-AFBF-4FE6-BBC7-A74B4115C68A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{39676F08-DE2E-27B0-1CD1-C218FE7DDF50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39676F08-DE2E-27B0-1CD1-C218FE7DDF50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39676F08-DE2E-27B0-1CD1-C218FE7DDF50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98BBEF77-AFBF-4FE6-BBC7-A74B4115C68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98BBEF77-AFBF-4FE6-BBC7-A74B4115C68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98BBEF77-AFBF-4FE6-BBC7-A74B4115C68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98BBEF77-AFBF-4FE6-BBC7-A74B4115C68A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
